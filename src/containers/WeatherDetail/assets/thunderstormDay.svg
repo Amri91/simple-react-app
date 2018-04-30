@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="190px" viewBox="0 0 191 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>03@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-117.000000, -698.000000)">
+            <g id="03" transform="translate(109.000000, 694.000000)">
+                <rect id="Rectangle" x="0" y="0" width="200" height="200"></rect>
+                <path d="M97.3555358,124 L105.012401,99.0600271 L80.4052578,99.0600271 L74.0224628,124 L38.4551724,124 C21.6352451,124 8,110.13527 8,93.0322581 C8,75.9292465 21.6352451,62.0645161 38.4551724,62.0645161 C38.4652133,62.0645161 38.475253,62.0645211 38.4852915,62.0645309 C39.4901284,29.8231967 65.5103478,4 97.462069,4 C122.82307,4 144.447192,20.2687527 152.791477,43.1026879 C154.61525,42.8436166 156.478449,42.7096774 158.372414,42.7096774 C180.448568,42.7096774 198.344828,60.907136 198.344828,83.3548387 C198.344828,105.153717 181.468158,122.944497 160.275862,123.954729 L160.275862,124 L97.3555358,124 Z" id="cloud" fill="#FFFFFF"></path>
+                <g id="rain" transform="translate(16.000000, 108.000000)" fill="#275DB7">
+                    <rect id="1" x="8" y="24" width="16" height="40" rx="8"></rect>
+                    <rect id="2" x="24" y="56" width="16" height="28" rx="8"></rect>
+                    <rect id="3" x="108" y="-2.88657986e-14" width="16" height="88" rx="8"></rect>
+                    <rect id="4" x="136" y="28" width="16" height="44" rx="8"></rect>
+                </g>
+                <path d="M93.6497724,136.070427 L105.012401,136.070427 L75.9093859,179.86003 L79.7092381,142.84963 L69.1983467,142.84963 L80.4052578,99.0600271 L105.012401,99.0600271 L93.6497724,136.070427 Z" id="thunder" fill="#FFD922"></path>
+            </g>
+        </g>
+    </g>
+</svg>

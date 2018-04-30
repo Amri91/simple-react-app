@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="191px" viewBox="0 0 196 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-94.000000, -416.000000)">
+            <g id="02" transform="translate(90.000000, 412.000000)">
+                <rect id="Rectangle" x="0" y="0" width="200" height="200"></rect>
+                <path d="M36,128 C18.326888,128 4,113.673112 4,96 C4,78.326888 18.326888,64 36,64 C36.0366776,64 36.0733409,64.0000617 36.1099896,64.000185 C38.0029467,29.7358153 64.0929628,4 96,4 C121.543161,4 143.358313,20.4935543 152.015473,44.6523803 C154.590577,44.222796 157.257422,44 160,44 C181.195959,44 200,62.8040405 200,88 C200,109.195959 181.195959,128 160,128 L36.0000094,128 Z" id="cloud" fill="#FFFFFF"></path>
+                <g id="rain" transform="translate(16.000000, 112.000000)" fill="#275DB7">
+                    <rect id="1" transform="translate(16.000000, 40.000000) rotate(20.000000) translate(-16.000000, -40.000000) " x="8" y="20" width="16" height="40" rx="8"></rect>
+                    <rect id="2" transform="translate(48.000000, 44.000000) rotate(20.000000) translate(-48.000000, -44.000000) " x="40" y="4" width="16" height="80" rx="8"></rect>
+                    <rect id="3" transform="translate(80.000000, 52.000000) rotate(20.000000) translate(-80.000000, -52.000000) " x="72" y="20" width="16" height="64" rx="8"></rect>
+                    <rect id="4" transform="translate(120.000000, 32.000000) rotate(20.000000) translate(-120.000000, -32.000000) " x="112" y="8" width="16" height="48" rx="8"></rect>
+                    <rect id="5" transform="translate(144.000000, 60.000000) rotate(20.000000) translate(-144.000000, -60.000000) " x="136" y="44" width="16" height="32" rx="8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

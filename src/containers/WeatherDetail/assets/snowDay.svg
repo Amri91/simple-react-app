@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="196px" viewBox="0 0 196 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>07@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-872.000000, -726.000000)">
+            <g id="07" transform="translate(868.000000, 722.000000)">
+                <rect id="Rectangle-1" x="0" y="0" width="200" height="200"></rect>
+                <path d="M36,128 C18.326888,128 4,113.673112 4,96 C4,78.326888 18.326888,64 36,64 C36.0366776,64 36.0733409,64.0000617 36.1099896,64.000185 C38.0029467,29.7358153 64.0929628,4 96,4 C121.543161,4 143.358313,20.4935543 152.015473,44.6523803 C154.590577,44.222796 157.257422,44 160,44 C181.195959,44 200,62.8040405 200,88 C200,109.195959 181.195959,128 160,128 L36.0000094,128 Z" id="cloud" fill="#FFFFFF"></path>
+                <g id="snow" transform="translate(28.000000, 120.000000)" fill="#D1FFFF">
+                    <circle id="1" cx="12" cy="28" r="12"></circle>
+                    <circle id="2" cx="28" cy="68" r="12"></circle>
+                    <circle id="3" cx="60" cy="40" r="12"></circle>
+                    <circle id="4" cx="92" cy="12" r="12"></circle>
+                    <circle id="5" cx="104" cy="56" r="12"></circle>
+                    <circle id="6" cx="136" cy="28" r="12"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
