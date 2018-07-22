@@ -1,25 +1,24 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { bindActionCreators } from 'redux'
 import injectSheet from 'react-jss';
 import { withRouter } from 'react-router-dom';
 import sunImage from './assets/sun.svg'
 import cloudImage from './assets/cloud.svg'
-import {fetchWeatherIfNeeded} from '../../actions'
 import styles from './styles'
 import {WEATHER_PAGE} from '../../globals'
 
+import {warped} from 'warped-components';
+import {reducer, effects, selectors, actions} from './state';
+
 @withRouter
 @injectSheet(styles)
-@connect(
-  ({citySelected}) => ({citySelected}),
-  dispatch => bindActionCreators({fetchWeatherIfNeeded}, dispatch)
-)
-export default class Home extends Component {
+class Home extends Component {
   static propTypes = {
     classes: PropTypes.object.isRequired,
-    fetchWeatherIfNeeded: PropTypes.func.isRequired
+    selectCity: PropTypes.func.isRequired,
+    weatherPerCityState: PropTypes.object.isRequired,
+    loadCityWeather: PropTypes.func.isRequired,
+    history: PropTypes.any.isRequired
   };
 
   constructor(props) {
@@ -33,7 +32,11 @@ export default class Home extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    this.props.fetchWeatherIfNeeded(this.state.value);
+    const selectedCity = this.state.value.toLowerCase();
+    this.props.selectCity(selectedCity);
+    if(!this.props.weatherPerCityState[selectedCity]) {
+      this.props.loadCityWeather(selectedCity);
+    }
     this.props.history.push(WEATHER_PAGE);
   };
 
@@ -60,3 +63,6 @@ export default class Home extends Component {
     )
   }
 }
+
+// TODO warped() produces bad error
+export default warped({reducer, effects, selectors, actions})(Home);

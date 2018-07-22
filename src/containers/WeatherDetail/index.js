@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
 import injectSheet from 'react-jss';
 import { withRouter } from 'react-router-dom';
+import {warped} from 'warped-components';
 import styles from './styles'
 import cloudyDay from './assets/cloudyDay.svg'
 import verticalLine from './assets/verticalLine.svg'
+import {selectors, reducer, actions, effects} from '../Home/state';
 
 @withRouter
 @injectSheet(styles)
-@connect(
-  // ({citySelected}) => ({citySelected}),
-  // dispatch => bindActionCreators({fetchWeatherIfNeeded}, dispatch)
-)
-export default class WeatherDetail extends Component {
+class WeatherDetail extends Component {
   static propTypes = {
-    classes: PropTypes.object.isRequired
+    classes: PropTypes.object.isRequired,
+    weatherPerCityState: PropTypes.object.isRequired,
+    citySelectedState: PropTypes.string.isRequired
   };
 
   render() {
@@ -31,7 +30,7 @@ export default class WeatherDetail extends Component {
           </div>
           <div className={right}>
             <div className={address}>
-              <span>Rotterdam, Netherlands</span>
+              <span>{this.props.citySelectedState}</span>
             </div>
             <div className={date}>
               <span>27 April, 2018</span>
@@ -39,9 +38,11 @@ export default class WeatherDetail extends Component {
           </div>
         </div>
         <div className={body}>
-          Body is here
+          {JSON.stringify(this.props.weatherPerCityState)}
         </div>
       </div>
     )
   }
 }
+
+export default warped({selectors, reducer, actions, effects})(WeatherDetail);

@@ -3,7 +3,8 @@ export default {
     backgroundColor: '#C1E9E7',
     height: '100%',
     width: '100%',
-    position: 'fixed'
+    position: 'fixed',
+    display: 'flex'
   },
   sunAndCloud: {
     display: 'flex',
